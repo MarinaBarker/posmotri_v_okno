@@ -143,6 +143,7 @@ ol {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin: 3px;
 }
 
 .content__details {
@@ -291,7 +292,6 @@ label input[type="checkbox"]:checked ~ .search-form__pseudo-checkbox::before {
 .button:focus-visible {
   outline: 1px solid #ffffff;
   outline-offset: 2px;
-  margin: 3px;
 }
 
 .content__list-item:not(:last-of-type) {
